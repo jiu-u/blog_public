@@ -1,0 +1,4 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>博客 - 分类 - Hi,Jiu.u</title><link>http://example.org/categories/%E5%8D%9A%E5%AE%A2/</link><description>博客 - 分类 - Hi,Jiu.u</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>jiu.u@foxmail.com (jiu.u)</managingEditor><webMaster>jiu.u@foxmail.com (jiu.u)</webMaster><lastBuildDate>Tue, 01 Apr 2025 10:43:20 +0800</lastBuildDate><atom:link href="http://example.org/categories/%E5%8D%9A%E5%AE%A2/" rel="self" type="application/rss+xml"/><item><title>我的第一篇博客</title><link>http://example.org/first_post/</link><pubDate>Tue, 01 Apr 2025 10:43:20 +0800</pubDate><author>jiu.u</author><guid>http://example.org/first_post/</guid><description><![CDATA[<h2 id="1-介绍">1. 介绍</h2>
+<p>这是我的第一篇博客，用来记录我的学习过程，以及一些想法。</p>
+<h2 id="2-感想">2. 感想</h2>
+<p>写博客是一种很好的学习方式，可以加深对知识的理解，同时也可以分享自己的心得体会。</p>]]></description></item></channel></rss>
