@@ -1,4 +1,4 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Hi,Jiu.u</title><link>http://example.org/</link><description>Hi,这是Jiu.u的个人博客</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>jiu.u@foxmail.com (jiu.u)</managingEditor><webMaster>jiu.u@foxmail.com (jiu.u)</webMaster><lastBuildDate>Wed, 02 Apr 2025 21:00:00 +0800</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml"/><item><title>ZSH安装与配置</title><link>http://example.org/zsh%E5%AE%89%E8%A3%85%E4%B8%8E%E9%85%8D%E7%BD%AE/</link><pubDate>Wed, 02 Apr 2025 21:00:00 +0800</pubDate><author>jiu.u</author><guid>http://example.org/zsh%E5%AE%89%E8%A3%85%E4%B8%8E%E9%85%8D%E7%BD%AE/</guid><description><![CDATA[<h2 id="安装">安装</h2>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>开发 - 分类 - Hi,Jiu.u</title><link>http://example.org/categories/%E5%BC%80%E5%8F%91/</link><description>开发 - 分类 - Hi,Jiu.u</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>jiu.u@foxmail.com (jiu.u)</managingEditor><webMaster>jiu.u@foxmail.com (jiu.u)</webMaster><lastBuildDate>Wed, 02 Apr 2025 21:00:00 +0800</lastBuildDate><atom:link href="http://example.org/categories/%E5%BC%80%E5%8F%91/" rel="self" type="application/rss+xml"/><item><title>ZSH安装与配置</title><link>http://example.org/zsh%E5%AE%89%E8%A3%85%E4%B8%8E%E9%85%8D%E7%BD%AE/</link><pubDate>Wed, 02 Apr 2025 21:00:00 +0800</pubDate><author>jiu.u</author><guid>http://example.org/zsh%E5%AE%89%E8%A3%85%E4%B8%8E%E9%85%8D%E7%BD%AE/</guid><description><![CDATA[<h2 id="安装">安装</h2>
 <h3 id="安装-zsh">安装 zsh</h3>
 <div class="code-block code-line-numbers open" style="counter-reset: code-block 0">
     <div class="code-header language-bash">
@@ -33,13 +33,4 @@
 </span></span><span class="line"><span class="cl">restart 
 </span></span><span class="line"><span class="cl">reboot</span></span></code></pre></div></div>
 <h2 id="oh-my-zsh-安装与配置">Oh-my-zsh 安装与配置</h2>
-<p><a href="https://ohmyz.sh/#install" target="_blank" rel="noopener noreffer ">Oh My Zsh - a delightful &amp; open source framework for Zsh</a></p>]]></description></item><item><title>MCP、FunctionCall科普</title><link>http://example.org/mcpfunctioncall%E7%A7%91%E6%99%AE/</link><pubDate>Wed, 02 Apr 2025 10:43:20 +0800</pubDate><author>jiu.u</author><guid>http://example.org/mcpfunctioncall%E7%A7%91%E6%99%AE/</guid><description><![CDATA[<div class="details admonition note open">
-        <div class="details-summary admonition-title">
-            <i class="icon fas fa-pencil-alt fa-fw" aria-hidden="true"></i>注意<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
-        </div>
-        <div class="details-content">
-            <div class="admonition-content"><blockquote>
-<p>以下将 MCP (主要指服务端) 和 FunctionCall (主要指 OpenAI chat 规范的函数调用) 都笼统称为“插件”，方便快速理解，</p>]]></description></item><item><title>我的第一篇博客</title><link>http://example.org/first_post/</link><pubDate>Tue, 01 Apr 2025 10:43:20 +0800</pubDate><author>jiu.u</author><guid>http://example.org/first_post/</guid><description><![CDATA[<h2 id="1-介绍">1. 介绍</h2>
-<p>这是我的第一篇博客，用来记录我的学习过程，以及一些想法。</p>
-<h2 id="2-感想">2. 感想</h2>
-<p>写博客是一种很好的学习方式，可以加深对知识的理解，同时也可以分享自己的心得体会。</p>]]></description></item></channel></rss>
+<p><a href="https://ohmyz.sh/#install" target="_blank" rel="noopener noreffer ">Oh My Zsh - a delightful &amp; open source framework for Zsh</a></p>]]></description></item></channel></rss>
