@@ -1,5 +1,35 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>所有文章 - Hi,Jiu.u</title><link>http://example.org/posts/</link><description>所有文章 | Hi,Jiu.u</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>jiu.u@foxmail.com (jiu.u)</managingEditor><webMaster>jiu.u@foxmail.com (jiu.u)</webMaster><lastBuildDate>Wed, 02 Apr 2025 21:00:00 +0800</lastBuildDate><atom:link href="http://example.org/posts/" rel="self" type="application/rss+xml"/><item><title>ZSH安装与配置</title><link>http://example.org/zsh%E5%AE%89%E8%A3%85%E4%B8%8E%E9%85%8D%E7%BD%AE/</link><pubDate>Wed, 02 Apr 2025 21:00:00 +0800</pubDate><author>jiu.u</author><guid>http://example.org/zsh%E5%AE%89%E8%A3%85%E4%B8%8E%E9%85%8D%E7%BD%AE/</guid><description><![CDATA[<h2 id="安装">安装</h2>
-<h3 id="安装-zsh">安装 zsh</h3>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>所有文章 - Hi,Jiu.u</title><link>http://example.org/posts/</link><description>所有文章 | Hi,Jiu.u</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>jiu.u@foxmail.com (jiu.u)</managingEditor><webMaster>jiu.u@foxmail.com (jiu.u)</webMaster><lastBuildDate>Thu, 24 Apr 2025 20:38:59 +0800</lastBuildDate><atom:link href="http://example.org/posts/" rel="self" type="application/rss+xml"/><item><title>ACME证书申请</title><link>http://example.org/acme%E8%AF%81%E4%B9%A6%E7%94%B3%E8%AF%B7/</link><pubDate>Thu, 24 Apr 2025 20:38:59 +0800</pubDate><author>jiu.u</author><guid>http://example.org/acme%E8%AF%81%E4%B9%A6%E7%94%B3%E8%AF%B7/</guid><description><![CDATA[<h1 id="wiki">Wiki</h1>
+<ul>
+<li><a href="https://wiki.acme.sh" target="_blank" rel="noopener noreffer ">Home · acmesh-official/acme.sh Wiki · GitHub</a>
+<ul>
+<li><a href="https://github.com/acmesh-official/acme.sh/wiki/%E8%AF%B4%E6%98%8E" target="_blank" rel="noopener noreffer ">说明 · acmesh-official/acme.sh Wiki · GitHub</a></li>
+<li><a href="https://github.com/acmesh-official/acme.sh/wiki/How-to-issue-a-cert" target="_blank" rel="noopener noreffer ">How to issue a cert · acmesh-official/acme.sh Wiki · GitHub</a></li>
+<li><a href="https://github.com/acmesh-official/acme.sh/wiki/dnsapi" target="_blank" rel="noopener noreffer ">dnsapi · acmesh-official/acme.sh Wiki · GitHub</a></li>
+</ul>
+</li>
+</ul>
+<h1 id="安装">安装</h1>
+<div class="code-block code-line-numbers" style="counter-reset: code-block 0">
+    <div class="code-header language-bash">
+        <span class="code-title"><i class="arrow fas fa-angle-right fa-fw" aria-hidden="true"></i></span>
+        <span class="ellipses"><i class="fas fa-ellipsis-h fa-fw" aria-hidden="true"></i></span>
+        <span class="copy" title="复制到剪贴板"><i class="far fa-copy fa-fw" aria-hidden="true"></i></span>
+    </div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">yum update ca-certificates <span class="c1"># centos</span>
+</span></span><span class="line"><span class="cl">apt install ca-certificates <span class="c1"># debian</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">curl https://get.acme.sh <span class="p">|</span> sh -s <span class="nv">email</span><span class="o">=</span>echo@echo.xyz
+</span></span><span class="line"><span class="cl">wget -O -  https://get.acme.sh <span class="p">|</span> sh -s <span class="nv">email</span><span class="o">=</span>echo@echo.xyz
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 国内使用</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># https://github.com/acmesh-official/acme.sh/wiki/Install-in-China</span>
+</span></span><span class="line"><span class="cl">git clone https://gitee.com/neilpang/acme.sh.git
+</span></span><span class="line"><span class="cl"><span class="nb">cd</span> acme.sh
+</span></span><span class="line"><span class="cl">./acme.sh --install -m <span class="nv">email</span><span class="o">=</span>echo@echo.xyz
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nb">source</span> ~/.bashrc
+</span></span><span class="line"><span class="cl"><span class="nb">source</span> ~/.zshrc</span></span></code></pre></div></div>
+<p>开启自动更新</p>]]></description></item><item><title>ZSH安装与配置</title><link>http://example.org/zsh%E5%AE%89%E8%A3%85%E4%B8%8E%E9%85%8D%E7%BD%AE/</link><pubDate>Wed, 02 Apr 2025 21:00:00 +0800</pubDate><author>jiu.u</author><guid>http://example.org/zsh%E5%AE%89%E8%A3%85%E4%B8%8E%E9%85%8D%E7%BD%AE/</guid><description><![CDATA[<h1 id="安装">安装</h1>
+<h2 id="安装-zsh">安装 zsh</h2>
 <div class="code-block code-line-numbers open" style="counter-reset: code-block 0">
     <div class="code-header language-bash">
         <span class="code-title"><i class="arrow fas fa-angle-right fa-fw" aria-hidden="true"></i></span>
@@ -9,8 +39,8 @@
 </span></span><span class="line"><span class="cl">sudo apt-get upgrade
 </span></span><span class="line"><span class="cl">apt-get install git,zsh
 </span></span><span class="line"><span class="cl">zsh --version</span></span></code></pre></div></div>
-<h2 id="shell-切换">Shell 切换</h2>
-<h3 id="切换为-bash">切换为 Bash</h3>
+<h1 id="shell-切换">Shell 切换</h1>
+<h2 id="切换为-bash">切换为 Bash</h2>
 <div class="code-block code-line-numbers open" style="counter-reset: code-block 0">
     <div class="code-header language-bash">
         <span class="code-title"><i class="arrow fas fa-angle-right fa-fw" aria-hidden="true"></i></span>
@@ -19,7 +49,7 @@
     </div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="nb">echo</span> <span class="nv">$SHELL</span> 
 </span></span><span class="line"><span class="cl">which bash 
 </span></span><span class="line"><span class="cl">sudo chsh -s <span class="k">$(</span>which bash<span class="k">)</span></span></span></code></pre></div></div>
-<h3 id="切换为-zsh">切换为 zsh</h3>
+<h2 id="切换为-zsh">切换为 zsh</h2>
 <div class="code-block code-line-numbers open" style="counter-reset: code-block 0">
     <div class="code-header language-bash">
         <span class="code-title"><i class="arrow fas fa-angle-right fa-fw" aria-hidden="true"></i></span>
@@ -32,7 +62,7 @@
 </span></span><span class="line"><span class="cl">chsh -s <span class="k">$(</span>which zsh<span class="k">)</span>
 </span></span><span class="line"><span class="cl">restart 
 </span></span><span class="line"><span class="cl">reboot</span></span></code></pre></div></div>
-<h2 id="oh-my-zsh-安装与配置">Oh-my-zsh 安装与配置</h2>
+<h1 id="oh-my-zsh-安装与配置">Oh-my-zsh 安装与配置</h1>
 <p><a href="https://ohmyz.sh/#install" target="_blank" rel="noopener noreffer ">Oh My Zsh - a delightful &amp; open source framework for Zsh</a></p>]]></description></item><item><title>MCP、FunctionCall科普</title><link>http://example.org/mcpfunctioncall%E7%A7%91%E6%99%AE/</link><pubDate>Wed, 02 Apr 2025 10:43:20 +0800</pubDate><author>jiu.u</author><guid>http://example.org/mcpfunctioncall%E7%A7%91%E6%99%AE/</guid><description><![CDATA[<div class="details admonition note open">
         <div class="details-summary admonition-title">
             <i class="icon fas fa-pencil-alt fa-fw" aria-hidden="true"></i>注意<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
