@@ -1,4 +1,16 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Hi,Jiu.u</title><link>http://example.org/</link><description>Hi,这是Jiu.u的个人博客</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>jiu.u@foxmail.com (jiu.u)</managingEditor><webMaster>jiu.u@foxmail.com (jiu.u)</webMaster><lastBuildDate>Thu, 24 Apr 2025 20:38:59 +0800</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml"/><item><title>ACME证书申请</title><link>http://example.org/acme%E8%AF%81%E4%B9%A6%E7%94%B3%E8%AF%B7/</link><pubDate>Thu, 24 Apr 2025 20:38:59 +0800</pubDate><author>jiu.u</author><guid>http://example.org/acme%E8%AF%81%E4%B9%A6%E7%94%B3%E8%AF%B7/</guid><description><![CDATA[<h1 id="wiki">Wiki</h1>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Hi,Jiu.u</title><link>http://example.org/</link><description>Hi,这是Jiu.u的个人博客</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>jiu.u@foxmail.com (jiu.u)</managingEditor><webMaster>jiu.u@foxmail.com (jiu.u)</webMaster><lastBuildDate>Tue, 13 May 2025 03:14:34 +0800</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml"/><item><title>FRPC安装与配置</title><link>http://example.org/frpc_use/</link><pubDate>Tue, 13 May 2025 03:14:34 +0800</pubDate><author>jiu.u</author><guid>http://example.org/frpc_use/</guid><description><![CDATA[<h1 id="文档">文档</h1>
+<p><a href="https://gofrp.org/zh-cn/docs/" target="_blank" rel="noopener noreffer ">文档 | frp</a></p>
+<h1 id="安装">安装</h1>
+<h2 id="windows">Windows</h2>
+<ul>
+<li><a href="https://github.com/luckjiawei/frpc-desktop" target="_blank" rel="noopener noreffer ">GitHub - luckjiawei/frpc-desktop: frp 跨平台桌面客户端，可视化配置，轻松实现内网穿透！ 支持所有 frp 版本</a></li>
+<li><a href="https://github.com/koho/frpmgr" target="_blank" rel="noopener noreffer ">GitHub - koho/frpmgr: Windows 平台的 FRP GUI 客户端 / A user-friendly desktop GUI client for FRP on Windows.</a></li>
+<li><a href="https://github.com/VaalaCat/frp-panel" target="_blank" rel="noopener noreffer ">GitHub - VaalaCat/frp-panel: a multi node frp webui and for https://github.com/fatedier/frp server and client management, which makes this project a Cloudflare Tunnel/Tailscale Funnel/Ngork platform and agent open source alternative</a></li>
+<li><a href="https://frpee.com/gui/#" target="_blank" rel="noopener noreffer ">Frpee-Gui-frp 客户端-内网穿透软件-免费内网穿透</a></li>
+<li><a href="https://github.com/q1285514609/frp-client-gui" target="_blank" rel="noopener noreffer ">GitHub - q1285514609/frp-client-gui: 可视化配置 frp 客户端（支持修改新增配置，阿里云解析），主要针对需要映射 http 请求的需求编写,如映射 http 的接口地址或者 web 服务地址</a></li>
+</ul>
+<h2 id="linux">Linux</h2>
+<p>下载并安装</p>]]></description></item><item><title>ACME证书申请</title><link>http://example.org/acme%E8%AF%81%E4%B9%A6%E7%94%B3%E8%AF%B7/</link><pubDate>Thu, 24 Apr 2025 20:38:59 +0800</pubDate><author>jiu.u</author><guid>http://example.org/acme%E8%AF%81%E4%B9%A6%E7%94%B3%E8%AF%B7/</guid><description><![CDATA[<h1 id="wiki">Wiki</h1>
 <ul>
 <li><a href="https://wiki.acme.sh" target="_blank" rel="noopener noreffer ">Home · acmesh-official/acme.sh Wiki · GitHub</a>
 <ul>
